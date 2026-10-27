@@ -1,0 +1,39 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# IDE et configuration locale
+.idea/
+.vscode/
+local.properties
+
+# Fichiers de build et caches
+.gradle/
+.kotlin/
+**/build/
+.cxx/
+.externalNativeBuild/
+
+# Secrets et signatures
+.env
+.env.*
+!.env.example
+key.properties
+*.jks
+*.keystore
+
+# Fichiers systeme
+.DS_Store
+Thumbs.db
